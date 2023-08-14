@@ -1,0 +1,37 @@
+{
+  "name": "node_js_github_app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "server": "node app.js",
+    "lint": "standard"
+  },
+  "description": "This is my my node.js app that will become a GitHub App",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellmccloy/node_js_github_app.git"
+  },
+  "keywords": [
+    "node",
+    "github",
+    "app",
+    "azure"
+  ],
+  "author": "Russell McCloy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellmccloy/node_js_github_app/issues"
+  },
+  "homepage": "https://github.com/russellmccloy/node_js_github_app#readme",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.14",
+    "smee-client": "^1.2.3"
+  }
+}
